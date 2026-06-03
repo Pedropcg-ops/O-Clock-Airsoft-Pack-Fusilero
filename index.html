@@ -16,7 +16,7 @@
     <nav class="site-header__nav" aria-label="Secciones">
       <a href="#configuracion">Configuración</a>
       <a href="#componentes">Componentes</a>
-      <a href="#consulta">Consulta</a>
+      <a href="#consulta" data-open-consult>Consulta</a>
     </nav>
   </header>
 
@@ -36,7 +36,7 @@
           </p>
           <div class="hero__actions reveal">
             <a class="button button--primary" href="#configuracion">Ver configuración</a>
-            <a class="button button--secondary" href="#consulta">Consultar Pack Fusilero</a>
+            <a class="button button--secondary" href="#consulta" data-open-consult>Consultar Pack Fusilero</a>
           </div>
         </div>
       </div>
@@ -52,6 +52,7 @@
         <p>
           Una gama especial de réplicas preparadas bajo el criterio de O'Clock Airsoft, pensada para quienes buscan una configuración especialmente cuidada, equilibrada y lista para rendir.
         </p>
+        <div class="titanium__image image-panel reveal"><img src="images/performance-detail.JPG" alt="Detalle premium de preparación Titanium Series vinculada al Pack Fusilero"></div>
       </div>
     </section>
     <!-- FIN TITANIUM SERIES -->
@@ -128,7 +129,7 @@
             <strong>Mayor estabilidad neumática y mejor aprovechamiento del volumen de aire.</strong>
           </article>
           <article class="component-card reveal">
-            <img src="images/component-spring-guide.png" alt="Guía de muelle para Pack Fusilero">
+            <img src="images/muelles.jpeg" alt="Muelles para ajuste interno del Pack Fusilero">
             <span>04</span>
             <h3>Guía de muelle</h3>
             <p>Aporta estabilidad al muelle durante el ciclo. Puede ser regulable o no según la configuración, pero es fundamental para mantener un movimiento más estable del conjunto.</p>
@@ -149,7 +150,7 @@
             <strong>Transmisión eficiente y respuesta ajustada al montaje.</strong>
           </article>
           <article class="component-card reveal">
-            <img src="images/component-extra.png" alt="Gatillo electrónico Leviathan para Pack Fusilero">
+            <img src="images/gatillo-leviathan.jpeg" alt="Gatillo electrónico Leviathan para Pack Fusilero">
             <span>07</span>
             <h3>Gatillo electrónico Leviathan, si aplica</h3>
             <p>Sistema electrónico avanzado con micropulsador mediante clic para ofrecer máxima fiabilidad y control total del disparo, con recorrido ajustable.</p>
@@ -176,10 +177,10 @@
           <h2 id="benefits-title">Lo que el usuario nota</h2>
         </div>
         <div class="benefit-grid">
-          <article class="benefit-card reveal"><span>01</span><h3>Respuesta más directa</h3><p>Una configuración correctamente equilibrada reduce pérdidas innecesarias y permite que la réplica transmita una sensación de disparo más inmediata y controlada.</p><strong>Respuesta instantánea.</strong></article>
-          <article class="benefit-card reveal"><span>02</span><h3>Mayor consistencia</h3><p>La mejora del conjunto neumático y mecánico ayuda a reducir variaciones entre disparos, favoreciendo una trayectoria más repetible.</p><strong>Agrupación a largas distancias.</strong></article>
-          <article class="benefit-card reveal"><span>03</span><h3>Mejor eficiencia neumática</h3><p>Un sellado correcto permite aprovechar mejor el aire disponible, reducir pérdidas de energía y estabilizar el comportamiento del sistema.</p><strong>Más rendimiento con menos pérdida.</strong></article>
-          <article class="benefit-card reveal"><span>04</span><h3>Ajustes propios de relojería</h3><p>La preparación no se basa en montar piezas sin criterio, sino en revisar compatibilidad, funcionamiento y ajuste real.</p><strong>Ajuste técnico real.</strong></article>
+          <article class="benefit-card reveal"><img class="vector-icon" src="images/Electronica.png" alt="" aria-hidden="true"><span>01</span><h3>Respuesta más directa</h3><p>Una configuración correctamente equilibrada reduce pérdidas innecesarias y permite que la réplica transmita una sensación de disparo más inmediata y controlada.</p><strong>Respuesta instantánea.</strong></article>
+          <article class="benefit-card reveal"><img class="vector-icon" src="images/Diana.png" alt="" aria-hidden="true"><span>02</span><h3>Mayor consistencia</h3><p>La mejora del conjunto neumático y mecánico ayuda a reducir variaciones entre disparos, favoreciendo una trayectoria más repetible.</p><strong>Agrupación a largas distancias.</strong></article>
+          <article class="benefit-card reveal"><img class="vector-icon" src="images/Sellado.png" alt="" aria-hidden="true"><span>03</span><h3>Mejor eficiencia neumática</h3><p>Un sellado correcto permite aprovechar mejor el aire disponible, reducir pérdidas de energía y estabilizar el comportamiento del sistema.</p><strong>Más rendimiento con menos pérdida.</strong></article>
+          <article class="benefit-card reveal"><img class="vector-icon" src="images/Ajuste tecnico.png" alt="" aria-hidden="true"><span>04</span><h3>Ajustes propios de relojería</h3><p>La preparación no se basa en montar piezas sin criterio, sino en revisar compatibilidad, funcionamiento y ajuste real.</p><strong>Ajuste técnico real.</strong></article>
         </div>
         <div class="benefits__image image-panel reveal">
           <img src="images/performance-detail.JPG" alt="Detalle técnico del Pack Fusilero orientado a consistencia y respuesta controlada">
@@ -199,69 +200,56 @@
           </p>
         </div>
         <div class="criteria__grid reveal">
-          <span>Compresión</span>
-          <span>Transmisión</span>
-          <span>Alimentación</span>
-          <span>Electrónica</span>
-          <span>Compatibilidad</span>
-          <span>Prueba final</span>
+          <span><img class="vector-icon" src="images/compresion.png" alt="" aria-hidden="true">Compresión</span>
+          <span><img class="vector-icon" src="images/Transmision.png" alt="" aria-hidden="true">Transmisión</span>
+          <span><img class="vector-icon" src="images/Alimentacion.png" alt="" aria-hidden="true">Alimentación</span>
+          <span><img class="vector-icon" src="images/Electronica.png" alt="" aria-hidden="true">Electrónica</span>
+          <span><img class="vector-icon" src="images/Compatibilidad.png" alt="" aria-hidden="true">Compatibilidad</span>
+          <span><img class="vector-icon" src="images/Prueba final.png" alt="" aria-hidden="true">Prueba final</span>
         </div>
       </div>
     </section>
     <!-- FIN CRITERIO TÉCNICO -->
 
-    <!-- PROCESO DE TRABAJO -->
-    <section class="process section-pad section-raised" aria-labelledby="process-title">
+    <!-- DECISIÓN Y CONTACTO -->
+    <section class="specs decision-contact section-pad" aria-labelledby="specs-title">
       <div class="page-shell">
-        <div class="section-heading reveal">
-          <p class="section-kicker">Proceso de trabajo</p>
-          <h2 id="process-title">Cómo trabajamos una preparación</h2>
+        <div class="decision-contact__header reveal">
+          <p class="section-kicker">Decisión rápida</p>
+          <h2 id="specs-title">¿Tiene sentido el Pack Fusilero para tu réplica?</h2>
+          <p>
+            Si buscas una réplica equilibrada para jugar de forma versátil, lo importante es revisar la base antes de elegir piezas. Cuéntanos qué tienes y te orientamos sin montar por montar.
+          </p>
         </div>
-        <div class="process-grid">
-          <article class="process-step reveal"><span>01</span><h3>Analizamos la réplica</h3><p>Revisamos base, compatibilidad y estado interno.</p></article>
-          <article class="process-step reveal"><span>02</span><h3>Definimos el uso</h3><p>No se prepara igual una réplica de asalto, fusilero, tirador o DMR.</p></article>
-          <article class="process-step reveal"><span>03</span><h3>Seleccionamos componentes</h3><p>Elegimos piezas que tengan sentido dentro del conjunto.</p></article>
-          <article class="process-step reveal"><span>04</span><h3>Ajustamos el sistema</h3><p>Compresión, transmisión, electrónica y alimentación deben trabajar juntas.</p></article>
-          <article class="process-step reveal"><span>05</span><h3>Probamos funcionamiento</h3><p>La configuración se comprueba antes de darla por cerrada.</p></article>
+        <div class="decision-contact__grid">
+          <article class="spec-card reveal">
+            <span>01</span>
+            <h3>Elige Fusilero si buscas equilibrio</h3>
+            <p>Respuesta controlada, consistencia y fiabilidad para una réplica de uso general.</p>
+          </article>
+          <article class="spec-card reveal">
+            <span>02</span>
+            <h3>Lo revisamos antes de recomendar</h3>
+            <p>Base, gearbox, compresión, alimentación y compatibilidad interna.</p>
+          </article>
+          <article class="spec-card reveal">
+            <span>03</span>
+            <h3>La configuración no es cerrada</h3>
+            <p>Las piezas se seleccionan según tu réplica, tu uso y el comportamiento que buscas.</p>
+          </article>
+          <aside class="contact-card reveal" aria-label="Contacto Pack Fusilero">
+            <p class="section-kicker">Contacto directo</p>
+            <h3>Te ayudamos a decidir antes de comprar</h3>
+            <p>Envíanos tu réplica, el uso que le das y qué quieres mejorar. Mejor consultar primero que montar piezas que no trabajen bien juntas.</p>
+            <div class="contact-card__actions">
+              <a class="button button--primary" href="#consulta" data-open-consult>Consultar mi réplica</a>
+              <a class="button button--secondary" href="https://wa.me/34XXXXXXXXX">WhatsApp</a>
+            </div>
+          </aside>
         </div>
       </div>
     </section>
-    <!-- FIN PROCESO DE TRABAJO -->
-
-    <!-- FICHA PRÁCTICA -->
-    <section class="specs section-pad" aria-labelledby="specs-title">
-      <div class="page-shell">
-        <div class="section-heading reveal">
-          <p class="section-kicker">Ficha práctica</p>
-          <h2 id="specs-title">Información práctica para decidir</h2>
-        </div>
-        <div class="spec-grid">
-          <article class="spec-card reveal"><h3>Para quién es</h3><p>Jugadores que buscan una réplica versátil, equilibrada y fiable para uso general.</p></article>
-          <article class="spec-card reveal"><h3>Qué se revisa</h3><p>Compresión, alimentación, transmisión, compatibilidad interna y comportamiento general.</p></article>
-          <article class="spec-card reveal"><h3>Qué puede incluir</h3><p>Componentes seleccionados según la base de la réplica y el objetivo de rendimiento.</p></article>
-          <article class="spec-card reveal"><h3>Instalación</h3><p>Recomendable instalación técnica para asegurar ajuste, compatibilidad y funcionamiento correcto.</p></article>
-          <article class="spec-card reveal"><h3>Compatibilidad</h3><p>Depende de la plataforma, gearbox, tolerancias internas y estado previo de la réplica.</p></article>
-          <article class="spec-card reveal"><h3>Antes de comprar</h3><p>Consulta compatibilidad para evitar montar piezas que no trabajen bien juntas.</p></article>
-        </div>
-      </div>
-    </section>
-    <!-- FIN FICHA PRÁCTICA -->
-
-    <!-- OTRAS CONFIGURACIONES -->
-    <section id="otros-packs" class="other-packs section-pad section-raised" aria-labelledby="other-title">
-      <div class="page-shell">
-        <div class="section-heading reveal">
-          <p class="section-kicker">Otras configuraciones disponibles</p>
-          <h2 id="other-title">Elige el enfoque según tu forma de jugar</h2>
-        </div>
-        <div class="other-packs__grid">
-          <a class="pack-link reveal" href="#"><span>Pack Asalto</span><strong>Respuesta inmediata, ciclo limpio y control en juego dinámico.</strong></a>
-          <a class="pack-link reveal" href="#"><span>Pack Tirador</span><strong>Precisión, agrupación y disparo limpio para usuarios que buscan control.</strong></a>
-          <a class="pack-link reveal" href="#"><span>Pack DMR</span><strong>Consistencia con bola pesada, estabilidad y largo alcance.</strong></a>
-        </div>
-      </div>
-    </section>
-    <!-- FIN OTRAS CONFIGURACIONES -->
+    <!-- FIN DECISIÓN Y CONTACTO -->
 
     <!-- FORMULARIO DE CONSULTA -->
     <section id="consulta" class="consult section-pad" aria-labelledby="consult-title">
@@ -272,7 +260,12 @@
           <p>
             Déjanos tu base, estilo de juego y comportamiento buscado. Revisaremos compatibilidad antes de recomendar una configuración.
           </p>
+          <div class="consult-shortcuts">
+            <a href="https://wa.me/34XXXXXXXXX">Hablar por WhatsApp</a>
+            <span>Respuesta técnica antes de montar piezas.</span>
+          </div>
         </div>
+        <a id="agenda-fusilero" class="button button--primary consult-prebutton reveal" href="#consulta" data-open-consult>Agenda tu cita técnica</a>
         <form class="consult-form reveal" action="https://formspree.io/f/xnjrakep" method="POST">
           <input type="hidden" name="_subject" value="Nueva consulta Pack Fusilero - O’Clock Airsoft">
           <input type="hidden" name="_next" value="gracias.html">
@@ -288,6 +281,22 @@
     </section>
     <!-- FIN FORMULARIO DE CONSULTA -->
 
+<!-- OTRAS CONFIGURACIONES -->
+    <section id="otros-packs" class="other-packs section-pad section-raised" aria-labelledby="other-title">
+      <div class="page-shell">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Otras configuraciones disponibles</p>
+          <h2 id="other-title">Elige el enfoque según tu forma de jugar</h2>
+        </div>
+        <div class="other-packs__grid">
+          <a class="pack-link reveal" href="https://pedropcg-ops.github.io/O-Clock-Airsoft-Pack-Asalto-/"><span>Pack Asalto</span><strong>Respuesta inmediata, ciclo limpio y control en juego dinámico.</strong></a>
+          <a class="pack-link reveal" href="https://pedropcg-ops.github.io/O-Clock-Airsoft-Pack-Tirador/"><span>Pack Tirador</span><strong>Precisión, agrupación y disparo limpio para usuarios que buscan control.</strong></a>
+          <a class="pack-link reveal" href="https://pedropcg-ops.github.io/O-Clock-Airsoft-Pack-DMR/"><span>Pack DMR</span><strong>Consistencia con bola pesada, estabilidad y largo alcance.</strong></a>
+        </div>
+      </div>
+    </section>
+    <!-- FIN OTRAS CONFIGURACIONES -->
+
     <!-- CTA FINAL -->
     <section class="final-cta" aria-labelledby="final-title">
       <div class="final-cta__bg" aria-hidden="true">
@@ -300,15 +309,38 @@
           Cuéntanos tu base, tu estilo de juego y qué comportamiento buscas. Te orientamos antes de montar piezas sin sentido.
         </p>
         <div class="final-cta__actions">
-          <a class="button button--primary" href="#consulta">Consultar Pack Fusilero</a>
+          <a class="button button--primary" href="#consulta" data-open-consult>Consultar Pack Fusilero</a>
           <a class="button button--secondary" href="#otros-packs">Ver otros packs</a>
         </div>
       </div>
     </section>
     <!-- FIN CTA FINAL -->
   </main>
+  <!-- POP-UP DE CONSULTA -->
+  <div class="consult-modal" id="consult-modal" aria-hidden="true">
+    <div class="consult-modal__backdrop" data-close-consult></div>
+    <section class="consult-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="modal-consult-title">
+      <button class="consult-modal__close" type="button" data-close-consult aria-label="Cerrar consulta">&times;</button>
+      <p class="section-kicker">Consulta técnica</p>
+      <h2 id="modal-consult-title">Consultar Pack Fusilero</h2>
+      <p>Déjanos tu réplica y el comportamiento que buscas. Revisaremos compatibilidad antes de recomendar una configuración.</p>
+      <form class="consult-form consult-form--modal" action="https://formspree.io/f/xnjrakep" method="POST">
+        <input type="hidden" name="_subject" value="Nueva consulta Pack Fusilero - O’Clock Airsoft">
+        <input type="hidden" name="_next" value="gracias.html">
+        <input type="hidden" name="pack" value="Pack Fusilero">
+        <label>Nombre<input type="text" name="nombre" autocomplete="name" required></label>
+        <label>Email<input type="email" name="email" autocomplete="email" required></label>
+        <label>WhatsApp<input type="tel" name="whatsapp" autocomplete="tel"></label>
+        <label>Réplica base<input type="text" name="replica"></label>
+        <label class="consult-form__wide">Mensaje<textarea name="mensaje" rows="5" required></textarea></label>
+        <button class="button button--primary" type="submit">Enviar consulta</button>
+      </form>
+    </section>
+  </div>
+  <!-- FIN POP-UP DE CONSULTA -->
 
   <script src="script.js"></script>
 </body>
 </html>
+
 
