@@ -283,9 +283,24 @@ p {
 }
 
 .image-panel img {
+  display: block;
   width: 100%;
   min-height: 460px;
   object-fit: cover;
+}
+
+.overview__media-title {
+  margin: 0;
+  padding: clamp(18px, 2.8vw, 30px) clamp(18px, 3vw, 34px) clamp(14px, 2vw, 22px);
+  color: #ffffff;
+  font-size: clamp(1.45rem, 3vw, 2.65rem);
+  font-weight: 920;
+  line-height: 1.04;
+  letter-spacing: 0;
+}
+
+.overview__media .overview__media-title + img {
+  min-height: clamp(360px, 42vw, 560px);
 }
 
 .titanium__inner,
